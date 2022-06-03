@@ -1,0 +1,63 @@
+ INSERT INTO houses (
+    url,
+    name,
+    region,
+    coat_of_arms,
+    words,
+    titles,
+    seats,
+    current_lord_url,
+    heir_url,
+    overlord_url,
+    founded,
+    founder_url,
+    died_out,
+    ancestral_weapons)
+ VALUES (
+    'http://localhost:8080/api/houses/1',
+    'House Algood',
+    'The Westerlands',
+    'A golden wreath, on a blue field with a gold border',
+    null,
+    null,
+    null,
+    null,
+    null,
+    'http://localhost:8080/api/characters/229',
+    null,
+    null,
+    null,
+    null
+ );
+
+ INSERT INTO houses (
+    url,
+    name,
+    region,
+    coat_of_arms,
+    words,
+    titles,
+    seats,
+    current_lord_url,
+    heir_url,
+    overlord_url,
+    founded,
+    founder_url,
+    died_out,
+    ancestral_weapons)
+ VALUES (
+    'http://localhost:8080/api/houses/2',
+    'House Allyrion of Godsgrace',
+    'Dorne',
+    'Gyronny Gules and Sable, a hand couped Or',
+    'No Foe May Pass',
+    null,
+    ARRAY ['Godsgrace'],
+    'http://localhost:8080/api/characters/298',
+    'http://localhost:8080/api/characters/1922',
+    'http://localhost:8080/api/characters/285',
+    null,
+    null,
+    null,
+    null
+ );
